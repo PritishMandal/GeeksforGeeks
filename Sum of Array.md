@@ -33,9 +33,30 @@ arr[] = [1, 3, 3]
 - **Expected Time Complexity:** O(n)
 - **Expected Auxiliary Space Complexity:** O(1)
 
-### Accepted Solutions (1)
+### Accepted Solutions (2)
 
 #### Solution 1 (Java)
+
+- **Submitted:** 2026-11-18 23:34:52
+- **Status:** Correct
+- **Marks:** 0
+
+```java
+class Solution {
+    public int arraySum(int arr[]) {
+        
+        int sum = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            sum = sum + arr[i];
+        }
+
+        return sum;
+    }
+}
+```
+
+#### Solution 2 (Java)
 
 - **Submitted:** 2026-11-12 20:01:43
 - **Status:** Correct
@@ -56,4 +77,4 @@ class Solution {
 }
 ```
 
-*Generated on: 11/18/2026, 11:34:20 PM*
+*Generated on: 11/18/2026, 11:35:23 PM*
